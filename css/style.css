@@ -1,0 +1,86 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+}
+h1
+{
+    font-size: 50px;
+    /* margin-top: 100px; */
+    /* padding-left: 50px; */
+}
+.orange-color
+{
+    color: orange;
+}
+.half-width
+{
+    padding-left: 5%;
+    width: 50%;
+}
+.flexable-container
+{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width img
+{
+    width: 100%;
+    
+}
+
+.click-btn
+{
+    text-decoration: none;
+    border: 1px solid tomato;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(231, 221, 195), tomato);
+    color: white;
+    font-weight: 700;
+}
+.click-btn:hover
+{
+    background-image: linear-gradient(white,rgb(231, 66, 60));
+}
+
+.top-banner
+{
+    background-image: url(../images/sm_bg.jpeg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: -30px -25px; 
+}
+
+.second-img img
+{
+    margin-top: 10%;
+    width: 70%;
+    border-radius: 450px;
+    border: 3px dotted steelblue;
+}
+.dream-big
+{
+    background-image: url(../images/bow_arrow.png);
+    background-repeat: no-repeat;
+    background-position: 1200px 65px;
+    /* margin-right: 50px; */
+    background-color: rgb(232, 241, 241);
+}
+#welcome
+{
+    margin-top: 100px;
+}
+#experiences
+{
+    padding-left: 50px;
+}
+#baby-developer
+{
+    margin-bottom: 18%;
+}
+#orange-color
+{
+    color: orange;
+}
