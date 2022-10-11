@@ -7,17 +7,13 @@ body
 h1
 {
     font-size: 50px;
-    /* margin-top: 100px; */
-    /* padding-left: 50px; */
 }
-.orange-color
-{
-    color: orange;
-}
+
 .half-width
 {
     padding-left: 5%;
     width: 50%;
+    padding-right: 5%;
 }
 .flexable-container
 {
@@ -28,6 +24,9 @@ h1
 {
     width: 100%;
     
+}
+h2{
+    font-size: 35px;
 }
 
 .click-btn
@@ -58,15 +57,14 @@ h1
     margin-top: 10%;
     width: 70%;
     border-radius: 450px;
-    border: 3px dotted steelblue;
+    border: 7px dotted steelblue;
+    box-shadow: 10px 10px 40px steelblue;
 }
 .dream-big
 {
     background-image: url(../images/bow_arrow.png);
     background-repeat: no-repeat;
     background-position: 1200px 65px;
-    /* margin-right: 50px; */
-    background-color: rgb(232, 241, 241);
 }
 #welcome
 {
@@ -76,11 +74,35 @@ h1
 {
     padding-left: 50px;
 }
-#baby-developer
-{
-    margin-bottom: 18%;
-}
+
 #orange-color
 {
     color: orange;
+}
+.box
+{
+    border-image: linear-gradient(rgb(244, 201, 197), tomato);
+    box-shadow: 10px 10px 40px cyan;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 2%;
+    border-right: 7px solid;
+    border-image-slice: 1;
+}
+
+footer
+{
+    text-align: center;
+}
+.nurul_islam
+{
+    width: 100px;
+    border-radius: 100%;
+    margin-left: 47%;
+}
+#dream
+{
+    color:rgb(74, 175, 233);
 }
