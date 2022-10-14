@@ -64,7 +64,7 @@ h2{
 {
     background-image: url(../images/bow_arrow.png);
     background-repeat: no-repeat;
-    background-position: 1200px 65px;
+    background-position: right 65px;
 }
 #welcome
 {
@@ -95,12 +95,6 @@ h2{
 footer
 {
     text-align: center;
-}
-.nurul_islam
-{
-    width: 100px;
-    border-radius: 100%;
-    margin-left: 47%;
 }
 #dream
 {
