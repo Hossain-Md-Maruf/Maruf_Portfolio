@@ -100,3 +100,122 @@ footer
 {
     color:rgb(74, 175, 233);
 }
+
+/* responsive for mobile screen */
+@media only screen and (max-width: 668px) {
+    .flexable-container
+    {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .half-width
+    {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .top-banner
+    {
+        margin-bottom: 50px;
+    }
+    .dream-big
+    {
+        margin-bottom: 50px;
+    }
+    .resume-btn
+    {
+        padding: 10px 0px;
+    }
+    #dream
+    {
+        margin: 0;
+        font-size: 30px;
+    }
+    #developer
+    {
+        margin: 0;
+        font-size: 25px;
+    }
+    .dev-info
+    {
+        margin-top: 0;
+    }
+    .dream-half-width
+    {
+        margin-left: 40px;
+    }
+    .dream-big
+    {
+        background-position: right 100px 10px;
+    }
+    .bottom-container
+    {
+        align-items: center;
+    }
+    .box
+    {
+        margin-bottom: 20px;
+    }
+    #welcome
+    {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    #name
+    {
+        font-size: 20px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    #experiences
+    {
+        margin-top: 0;
+    }
+    
+   
+}
+
+/* Responsive for Tablet screen */
+@media only screen and (min-width:669px) and (max-width:992px) {
+    .dream-half-width
+    {
+        margin-right: 150px;
+    }
+    #dream
+    {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    #developer
+    {
+        font-size: 20px;
+    }
+    .bottom-container
+    {
+        margin-bottom: 50px;
+    }
+    .flexable-container
+    {
+        margin-bottom:50px;
+    }
+    #experiences
+    {
+        margin-top: 0;
+    }
+    .copy-right
+    {
+        margin-top: 0;
+    }
+    #name
+    {
+        font-size: 20px;
+    }
+    #welcome
+    {
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+    .resume-btn
+    {
+        padding: 10px 0;
+    }
+}
